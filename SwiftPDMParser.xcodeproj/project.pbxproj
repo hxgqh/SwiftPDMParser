@@ -1,0 +1,100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		855BA9FB1C1BC325002B3DB5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		857EEC751C1BC13C0088C27B /* core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = core.swift; path = parser/core.swift; sourceTree = "<group>"; };
+		857EEC791C1BC1600088C27B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		857EEC761C1BC1410088C27B /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				857EEC751C1BC13C0088C27B /* core.swift */,
+			);
+			name = parser;
+			sourceTree = "<group>";
+		};
+		857EEC771C1BC14B0088C27B /* tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		857EEC781C1BC1500088C27B /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		85DD6C0C1C1BC0EF004F88BD = {
+			isa = PBXGroup;
+			children = (
+				855BA9FB1C1BC325002B3DB5 /* .gitignore */,
+				857EEC791C1BC1600088C27B /* README.md */,
+				857EEC781C1BC1500088C27B /* scripts */,
+				857EEC771C1BC14B0088C27B /* tests */,
+				857EEC761C1BC1410088C27B /* parser */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		85DD6C0D1C1BC0EF004F88BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = 85DD6C101C1BC0EF004F88BD /* Build configuration list for PBXProject "SwiftPDMParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85DD6C0C1C1BC0EF004F88BD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		85DD6C111C1BC0EF004F88BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		85DD6C121C1BC0EF004F88BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DD6C101C1BC0EF004F88BD /* Build configuration list for PBXProject "SwiftPDMParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DD6C111C1BC0EF004F88BD /* Debug */,
+				85DD6C121C1BC0EF004F88BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DD6C0D1C1BC0EF004F88BD /* Project object */;
+}
